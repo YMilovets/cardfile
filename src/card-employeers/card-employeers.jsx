@@ -14,6 +14,12 @@ export default function CardEmployeers(props) {
             day: 'numeric'
         })
     }
+    const formatCalcDate = (start) => {
+        const now = Date.now();
+        const stamp = new Date(new Date().getFullYear(), new Date(+start).getMonth(), new Date(+start).getDate()).getTime();
+
+        return new Date().getFullYear() - new Date(+start).getFullYear() + ((now - stamp) > 0 ? 0 : 1);
+    }
     return (
         <div className="mt-3 flex-grow-1">
             {props.children}
@@ -25,8 +31,8 @@ export default function CardEmployeers(props) {
             <p><b>Должность:</b> {vacancy}</p>
             <p><b>Дата рождения:</b> {formatDate(birth)}</p>
             <p><b>Дата трудоустройства:</b> {formatDate(employment)}</p>
-            <p><b>Возраст:</b> {new Date().getFullYear() - new Date(+birth).getFullYear()}</p>
-            <p><b>Стаж:</b> {new Date().getFullYear() - new Date(+employment).getFullYear()}</p>
+            <p><b>Возраст (лет):</b> {formatCalcDate(birth)}</p>
+            <p><b>Стаж (лет):</b> {formatCalcDate(employment)}</p>
         </div>
     )
 }

@@ -24,8 +24,8 @@ export default function CardEmployeers(props) {
         <div className="mt-3 flex-grow-1">
             {props.children}
             <h1>
-                <span>{name} </span>
                 <span>{surname} </span>
+                <span>{name} </span>
                 <span>{name_of_father}</span>
             </h1>
             <p><b>Должность:</b> {vacancy}</p>

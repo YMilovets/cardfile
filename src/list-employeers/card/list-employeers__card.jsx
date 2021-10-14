@@ -1,11 +1,9 @@
 import React from 'react'
 import './list-employeers__card.css'
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch} from "react-redux";
 
 export default function ListCard(props) {
     const dispatch = useDispatch();
-    const {data} = useSelector(state => state);
-
     let {name, 
         surname, 
         name_of_father, vacancy} = props.data;

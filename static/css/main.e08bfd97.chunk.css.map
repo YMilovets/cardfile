@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/list-employeers/card/list-employeers__card.css"],"names":[],"mappings":"AAAA,iBACI,cACJ","file":"main.e08bfd97.chunk.css","sourcesContent":[".list-group-item {  \r\n    cursor: pointer;\r\n}"]}

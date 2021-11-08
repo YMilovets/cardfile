@@ -1,5 +1,5 @@
 const fetchQuery = () => {
-    const src = "http://localhost:8080/employeers";
+    const src = "https://ymilovets.github.io/cardfile/employeers.json";
     return fetch(src).then(res => res.json())
 }
 const wrapFetch = (promise, dispatch) => {

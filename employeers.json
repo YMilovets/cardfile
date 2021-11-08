@@ -1,0 +1,42 @@
+[
+    {
+        "surname": "Соседов",
+        "name": "Юрий",
+        "name_of_father": "Александрович",
+        "vacancy": "Печник",
+        "birth": 401102469884,
+        "employment": 1034102469884
+    },
+    {
+        "surname": "Корнилов",
+        "name": "Владислав",
+        "name_of_father": "Сергеевич",
+        "vacancy": "Сторож",
+        "birth": 701102469884,
+        "employment": 1634102800672
+    },
+    {
+        "surname": "Крылова",
+        "name": "Изабелла",
+        "name_of_father": "Максимовна",
+        "vacancy": "Стилист",
+        "birth": 337798800000,
+        "employment": 934102800672
+    },
+    {
+        "surname": "Емельянова",
+        "name": "Тамара",
+        "name_of_father": "Владимировна",
+        "vacancy": "Радист",
+        "birth": 230835600000,
+        "employment": 1004102800672
+    },
+    {
+        "surname": "Богданов",
+        "name": "Аким",
+        "name_of_father": "Борисович",
+        "vacancy": "Пианист",
+        "birth": 374864400000,
+        "employment": 1004104700672
+    }
+]

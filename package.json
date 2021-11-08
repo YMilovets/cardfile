@@ -1,5 +1,6 @@
 {
   "name": "cardfile",
+  "homepage": "https://ymilovets.github.io/cardfile/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
